@@ -1,12 +1,15 @@
-
+import React from 'react';
 import './App.css';
+import Header from './components/Header';
+import ServiceCards from './components/ServiceCards';
+import ContactForm from './components/ContactForm';
 
-function App() {
-  return (
-    <div className="App">
-      
-    </div>
-  );
-}
+const App = () => (
+  <div className="app">
+    <Header />
+    <ServiceCards />
+    <ContactForm />
+  </div>
+);
 
 export default App;

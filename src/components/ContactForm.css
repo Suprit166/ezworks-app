@@ -1,0 +1,38 @@
+.contact-form {
+  text-align: center;
+  margin: 20px;
+}
+
+.email-input {
+  top: 726px;
+left: 40px;
+width: 514px;
+height: 78px;
+/* UI Properties */
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #ABABAB;
+border-radius: 10px;
+opacity: 1;
+}
+
+.submit-button {
+  top: 726px;
+  left: 574px;
+  width: 213px;
+  height: 78px;
+  /* UI Properties */
+  background: #EA7B2C 0% 0% no-repeat padding-box;
+  border: 1px solid #EA7B2C;
+  border-radius: 10px;
+  opacity: 1;
+}
+
+.submit-button:hover {
+  background-color: #005f7a;
+}
+
+.message {
+  margin: 10px;
+  color: red;
+  font-size: 14px;
+}

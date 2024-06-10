@@ -1,0 +1,65 @@
+.service-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.card {
+  top: 256px;
+  left: 867px;
+  width: 311px;
+  height: 254px;
+  /* UI Properties */
+  background: #112949 0% 0% no-repeat padding-box;
+  border-radius: 10px;
+  opacity: 1;
+  margin: 10px;
+}
+
+
+.card-image {
+  top: 286px;
+  left: 897px;
+  width: 58px;
+  height: 58px;
+  /* UI Properties */
+  /* background: transparent url('img/Research@4x.png') 0% 0% no-repeat padding-box; */
+  opacity: 1;
+  padding: 15px;
+}
+
+
+.card h2 {
+  top: 286px;
+left: 975px;
+width: 173px;
+height: 58px;
+/* UI Properties */
+text-align: left;
+font: normal normal normal 24px/29px Exo 2.0;
+letter-spacing: 0px;
+color: #3CC3F2;
+opacity: 1;
+padding-left: 15px;
+}
+
+.card p {
+  top: 364px;
+left: 897px;
+width: 251px;
+height: 116px;
+/* UI Properties */
+text-align: left;
+font: normal normal normal 24px/29px Exo 2.0;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+padding-left: 15px;
+}
+
+@media (max-width: 720px) {
+  .card {
+    width: 100%;
+  }
+}
