@@ -66,3 +66,10 @@
     width: 100%;
   }
 }
+
+@media (max-width) {
+  .card {
+    display: flex;
+    flex-direction: column;
+  }
+}

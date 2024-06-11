@@ -1,18 +1,19 @@
 .contact-form {
   text-align: center;
   margin: 20px;
+  display: flex;
 }
 
 .email-input {
   top: 726px;
-left: 40px;
-width: 514px;
-height: 78px;
-/* UI Properties */
-background: #FFFFFF 0% 0% no-repeat padding-box;
-border: 1px solid #ABABAB;
-border-radius: 10px;
-opacity: 1;
+  left: 40px;
+  width: 514px;
+  height: 78px;
+  /* UI Properties */
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #ababab;
+  border-radius: 10px;
+  opacity: 1;
 }
 
 .submit-button {
@@ -21,10 +22,11 @@ opacity: 1;
   width: 213px;
   height: 78px;
   /* UI Properties */
-  background: #EA7B2C 0% 0% no-repeat padding-box;
-  border: 1px solid #EA7B2C;
+  background: #ea7b2c 0% 0% no-repeat padding-box;
+  border: 1px solid #ea7b2c;
   border-radius: 10px;
   opacity: 1;
+  margin-left: 20px;
 }
 
 .submit-button:hover {

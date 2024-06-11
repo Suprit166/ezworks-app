@@ -8,9 +8,11 @@ const App = () => (
   <div className="app">
     <div className="main">
       <Header />
+      <ContactForm />
+    </div>
+    <div>
       <ServiceCards />
     </div>
-    <ContactForm />
   </div>
 );
 
