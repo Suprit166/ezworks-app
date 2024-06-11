@@ -14,6 +14,17 @@ const App = () => (
       <ServiceCards />
     </div>
   </div>
+
+
+  // <div className="app">
+  //   <div className="main">
+  //     <Header />
+  //     <ServiceCards />
+  //     <ContactForm />
+  //   </div>
+  // </div>
+
+
 );
 
 export default App;

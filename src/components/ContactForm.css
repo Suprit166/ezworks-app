@@ -38,3 +38,42 @@
   color: red;
   font-size: 14px;
 }
+
+
+
+@media (max-width: 480px) {
+  .email-input {
+    top: 2086px;
+    left: 30px;
+    width: 289px;
+    height: 29px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal normal 24px/29px Exo 2.0;
+    letter-spacing: 0px;
+    color: #ABABAB;
+    opacity: 1;
+    
+  }
+
+  .submit-button {
+    top: 2145px;
+    left: 78px;
+    width: 213px;
+    height: 29px;
+    /* UI Properties */
+    background: #EA7B2C 0% 0% no-repeat padding-box;
+    border: 1px solid #EA7B2C;
+    border-radius: 10px;
+    opacity: 1;   
+    margin: 20px;
+    
+  }
+
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}   

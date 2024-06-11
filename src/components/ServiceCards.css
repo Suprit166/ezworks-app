@@ -61,15 +61,36 @@
   padding-left: 15px;
 }
 
-@media (max-width: 720px) {
+/* @media (max-width: 720px) {
   .card {
     width: 100%;
   }
-}
+} */
 
-@media (max-width) {
+@media (max-width: 480px) {
+  .service-cards {
+    padding: 10px;
+  }
+
   .card {
+    top: 432px;
+    left: 40px;
+    width: 311px;
+    height: 254px;
+    /* UI Properties */
+    background: #112949 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    opacity: 1;
     display: flex;
     flex-direction: column;
+    
+  }
+
+  .card h2 {
+    font-size: 16px;
+  }
+
+  .card p {
+    font-size: 12px;
   }
 }

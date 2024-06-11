@@ -16,9 +16,27 @@ html,
   justify-content: space-between;
 }
 
-@media (min-width) {
+
+
+
+
+@media (max-width: 480px) {
   .app {
-    display: flex;
     flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
   }
+
+  .main {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .service-cards {
+    width: 100%;
+  }
+
+  
 }
+
+

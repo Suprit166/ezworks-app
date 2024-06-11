@@ -26,3 +26,38 @@
   font-size: 16px;
   color: #666;
 }
+
+
+@media (max-width: 480px) {
+  .logo {
+    top: 40px;
+left: 84px;
+width: 222px;
+height: 62px;
+/* UI Properties */
+/* background: transparent url('img/EZ Works Blue.png') 0% 0% no-repeat padding-box; */
+opacity: 1;
+  }
+
+
+  .main-heading {
+    top: 122px;
+    left: 55px;
+    width: 280px;
+    height: 76px;
+    /* UI Properties */
+    /* background: transparent url('img/A Suite of Business Support Services.png') 0% 0% no-repeat padding-box; */
+    opacity: 1;
+  }
+  
+
+  .sub-heading {
+    top: 218px;
+left: 20px;
+width: 350px;
+height: 174px;
+/* UI Properties */
+/* background: transparent url('img/Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt...Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed.png') 0% 0% no-repeat padding-box; */
+opacity: 1;
+  }
+}
